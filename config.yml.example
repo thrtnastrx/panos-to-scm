@@ -1,0 +1,30 @@
+# PAN-OS to SCM Migration Tool - Configuration Example
+# Copy this file to ~/.panapi/config.yml and fill in your values
+
+# Strata Cloud Manager Credentials
+# Get these from: https://apps.paloaltonetworks.com
+# Settings → Identity & Access → Service Accounts
+client_id: your-client-id@12345.iam.panserviceaccount.com
+client_secret: your-client-secret-here
+tsg_id: 1234567890
+
+# PAN-OS/Panorama Credentials
+palo_alto_ngfw_url: https://panorama.example.com/api/
+palo_alto_username: admin
+palo_alto_password: your-password-here
+
+# Optional: Use API token instead of username/password
+# palo_api_token: your-api-token-here
+
+# Optional: Migration Settings
+migration:
+  conflict_strategy: prompt  # prompt, merge, replace, append, ignore
+  dry_run: true
+  parallel_workers: 4
+  timeout: 30
+  retry_attempts: 3
+
+# Optional: Logging Settings
+logging:
+  level: INFO
+  file: ~/.panapi/migration.log
