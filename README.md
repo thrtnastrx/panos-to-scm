@@ -25,7 +25,7 @@ Thank you for your understanding and cooperation.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/PaloAltoNetworks/panos-to-scm.git
+git clone https://github.com/thrtnastrx/panos-to-scm.git
 cd panos-to-scm
 ```
 
