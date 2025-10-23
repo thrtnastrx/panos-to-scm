@@ -143,3 +143,10 @@ palo_api_token: xxxxxxxxxxxxxxxxxxxxxx
 - **Service Objects**
 - **Service Groups**
 - **Security Rules**
+
+## Screenshots
+<img width="1400" height="928" alt="Image" src="https://github.com/user-attachments/assets/ae526f0d-3b45-47fb-b356-24d532403b33" />
+<img width="1453" height="1319" alt="Image" src="https://github.com/user-attachments/assets/21bea20a-b341-429b-a669-5409e8d97fa4" />
+<img width="1411" height="933" alt="Image" src="https://github.com/user-attachments/assets/63ed9ed5-6860-4869-9969-16daa3bbcba8" />
+<img width="1411" height="933" alt="Image" src="https://github.com/user-attachments/assets/81133281-a0a7-4a5a-8f8b-cc2c1c38a91d" />
+<img width="1411" height="933" alt="Image" src="https://github.com/user-attachments/assets/a852bbff-1022-4327-9278-dc5f156c5175" />
