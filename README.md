@@ -1,5 +1,5 @@
-### Download the MacOS installer from the "Releases" and follow the installation instructions.
-
+### Easy installation instructions:  Download the MacOS installer from the "Releases" and follow the installation instructions.
+### Or...
 ### Optionally to run the python script directly:
 ### Step 1: Clone the Repository
 
