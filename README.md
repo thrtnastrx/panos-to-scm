@@ -69,6 +69,7 @@ palo_api_token: xxxxxxxxxxxxxxxxxxxxxx
 5.  Create Groups in the same folder as the objects
 6.  Optionally just create one folder and import everything into that folder, then move or duplicate as needed.
 7.  NOTE: Do not create new folders in SCM while the migration is live, or the app will crash with "RecursionError: maximum recursion depth exceeded while calling a Python object".
+8.  If the app crashes during migration of over 5000 objects, just relaunch it and it will continue from where it left off.
 
 ## Screenshots
 <img width="1400" height="928" alt="Image" src="https://github.com/user-attachments/assets/785d0fef-e813-4d77-a625-917d1b5992d6" />
