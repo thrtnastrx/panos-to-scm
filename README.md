@@ -64,12 +64,13 @@ palo_api_token: xxxxxxxxxxxxxxxxxxxxxx
 - **Decryption Policy Rules**
 
 ### To Use
-1.  Create a folder in SCM named "Addresses" and "Services", etc. (you can move anything to Global once the migrations are complete)
+1.  Create a folder in SCM named "Addresses" or "Services", etc. (you can move anything to Global once the migrations are complete)
 2.  Select only "Addresses" first and on the Migration tab set folder name to "Addresses"
 3.  Start Migration
 4.  You can verify in the app and in SCM as the migration is live
 5.  Create Groups in the same folder as the objects
 6.  Optionally just create one folder and import everything into that folder, then move or duplicate as needed.
+7.  NOTE: Do not create new folders in SCM while the migration is live, or the app will crash with "RecursionError: maximum recursion depth exceeded while calling a Python object".
 
 ## Screenshots
 <img width="1400" height="928" alt="Image" src="https://github.com/user-attachments/assets/785d0fef-e813-4d77-a625-917d1b5992d6" />
