@@ -1,6 +1,4 @@
-### Easy installation instructions:  Download the MacOS installer from the "Releases" and follow the installation instructions.
-### Or...
-### Optionally to run the python script directly:
+### To run the python script directly:
 ### Step 1: Clone the Repository
 
 ```bash
@@ -15,7 +13,7 @@ source venv/bin/activate
 pip3 install -r requirements.txt
 ```
 
-### Step 3: Executing main.py for PAN-OS
+### Step 3: Executing complete_migration_gui.py for PAN-OS
 - Run "complete_migration_gui.py"
 - The GUI will prompt you for your SCM IAM account information and the Panorama information and will create the .yaml file in the working directory
 
