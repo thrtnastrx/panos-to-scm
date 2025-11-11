@@ -64,7 +64,7 @@ palo_api_token: xxxxxxxxxxxxxxxxxxxxxx
 - **Decryption Policy Rules**
 
 ### To Use
-1.  Create a folder in SCM named "Addresses" or "Services", etc. (you can move anything to Global once the migrations are complete)
+1.  Create a folder in SCM named "Addresses" or "Services", etc. (you can clone or move anything to Global or any other folder once the migrations are complete)
 2.  Select only "Addresses" first and on the Migration tab set folder name to "Addresses"
 3.  Start Migration
 4.  You can verify in the app and in SCM as the migration is live
