@@ -63,6 +63,14 @@ palo_api_token: xxxxxxxxxxxxxxxxxxxxxx
 - **Application Override Rules**
 - **Decryption Policy Rules**
 
+### To Use
+1.  Create a folder in SCM named "Addresses" and "Services", etc. (you can move anything to Global once the migrations are complete)
+2.  Select only "Addresses" first and on the Migration tab set folder name to "Addresses"
+3.  Start Migration
+4.  You can verify in the app and in SCM as the migration is live
+5.  Create Groups in the same folder as the objects
+6.  Optionally just create one folder and import everything into that folder, then move or duplicate as needed.
+
 ## Screenshots
 <img width="1400" height="928" alt="Image" src="https://github.com/user-attachments/assets/785d0fef-e813-4d77-a625-917d1b5992d6" />
 <img width="1453" height="1319" alt="Image" src="https://github.com/user-attachments/assets/21bea20a-b341-429b-a669-5409e8d97fa4" />
