@@ -62,15 +62,13 @@ palo_api_token: xxxxxxxxxxxxxxxxxxxxxx
 - **Decryption Policy Rules**
 
 ### To Use
-1.  Use the folder name "All" for "Global" Addresses
-2.  Create a folder in SCM named "Addresses" or "Services", etc. (you can clone or move anything to Global or any other folder once the migrations are complete)
-3.  Select only "Addresses" first and on the Migration tab set folder name to "Addresses"
+1.  Use the destination folder name "All" for "Global" Addresses (I suggest you import addresses and other objects to Global which is the equivalent of Shared)
+2.  If you don't have a specific folder or snippet and just want to import everything from Panormaa to SCM, create a folder in SCM named "Imported" or "Panorama", etc. (you can clone or move anything to Global or any other folder or snippet once the migrations are complete), otherwise type in the name of the existing destination folder.
+3.  Select the entities for migration
 4.  Start Migration
 5.  You can verify in the app and in SCM as the migration is live
-6.  Create Groups in the same folder as the objects
-7.  Optionally just create one folder and import everything into that folder, then move or duplicate as needed.
-8.  NOTE: Do not create new folders in SCM while the migration is live, or the app will crash with "RecursionError: maximum recursion depth exceeded while calling a Python object".
-9.  If the app crashes during migration of over 5000 objects, just relaunch it and it will continue from where it left off.
+6.  If the app closes or crashed during migration of over 5000 objects, just relaunch it and it will continue from where it left off.
+7.  NOTE: Do not create new folders in SCM while the migration is live, or the app will crash with "RecursionError: maximum recursion depth exceeded while calling a Python object".
 
 ## Screenshots
 <img width="1400" height="928" alt="Image" src="https://github.com/user-attachments/assets/785d0fef-e813-4d77-a625-917d1b5992d6" />
