@@ -62,8 +62,8 @@ palo_api_token: xxxxxxxxxxxxxxxxxxxxxx
 - **Decryption Policy Rules**
 
 ### To Use
-1.  Use the destination folder name "All" for "Global" Addresses (I suggest you import addresses and other objects to Global which is the equivalent of Shared)
-2.  If you don't have a specific folder or snippet and just want to import everything from Panormaa to SCM, create a folder in SCM named "Imported" or "Panorama", etc. (you can clone or move anything to Global or any other folder or snippet once the migrations are complete), otherwise type in the name of the existing destination folder.
+1.  Use the destination folder name "All" for "Global" Addresses
+2.  If you don't have a specific folder or snippet and just want to import everything from Panormaa to SCM, create a folder in SCM named "Imported" or "Panorama", etc. (you can clone or move anything to Global or any other folder or snippet once the migrations are complete), otherwise type in the name of the existing destination folder or snippet.
 3.  Select the entities for migration
 4.  Start Migration
 5.  You can verify in the app and in SCM as the migration is live
